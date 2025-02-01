@@ -1,0 +1,65 @@
+
+@charset "ISO-8859-1";
+
+.title{
+	margin-top: 90px;
+	font-weight: bold;
+	font-size: 2.5em;
+	margin-left: 35%;
+}
+
+.management-list{
+	display: flex;
+	flex-direction: row;
+	margin-left: 18%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.management-list button{
+	width: 300px;
+	height: 40px;
+	margin-left: 20px;
+	font-size: 16px;
+	background-color: #36c3ff;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+.EmContent {
+	margin-top: 20px;
+}
+
+.table {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	min-height: 400px;
+}
+
+th {
+	min-width: 100px;
+	width: auto;
+	text-align: center;
+	max-width: auto;
+	height: 40px;
+	font-size: 18px;
+}
+
+.vessel {
+	min-width: 190px;
+}
+
+
+.action{
+	max-width: 80px;
+}
+
+td {
+	width: auto;
+	text-align: center;
+	height: 30px;
+	font-size: 17px
+}

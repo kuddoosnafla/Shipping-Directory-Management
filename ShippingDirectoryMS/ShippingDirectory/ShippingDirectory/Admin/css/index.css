@@ -1,0 +1,83 @@
+/* Reset Bootstrap's default margin and padding for containers, rows, and columns */
+.container, .row, .col-md-4, .col-md-8 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Reduce the margin and padding globally */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+/* Title Styling */
+.title {
+    margin-top: 10px; /* Reduced even further */
+    font-weight: bold;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+/* Management Button Styling */
+.management-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.management-list button {
+    width: 300px;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 16px;
+    background-color: #36c3ff;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Content Section */
+.EmContent {
+    margin-top: 10px;
+}
+
+/* Table Styling */
+.table {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    min-height: 400px;
+}
+
+/* Table Header Styling */
+th {
+    min-width: 100px;
+    text-align: center;
+    height: 40px;
+    font-size: 18px;
+}
+
+/* Table Cell Styling */
+td {
+    text-align: center;
+    height: 30px;
+    font-size: 17px;
+    word-break: break-word;
+}
+
+/* Specific Classes */
+.vessel {
+    min-width: 190px;
+}
+
+.action {
+    max-width: 80px;
+}

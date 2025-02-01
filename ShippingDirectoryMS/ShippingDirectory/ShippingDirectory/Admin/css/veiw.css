@@ -1,0 +1,118 @@
+@charset "ISO-8859-1";
+
+.searchBox {
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+	margin-left: 120px;
+}
+
+.download {
+	margin-left: 40px;
+}
+
+.pdfBtn {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	height: 36px;
+	color: white;
+	font-weight: bold;
+	font-size: 1.2em;
+	background-color: #3da6e7;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+
+
+.search {}
+
+.Sear {
+	display: flex;
+	flex-direction: row;
+}
+
+.searchInput {
+	width: 300px;
+	height: 35px;
+	padding-left: 15px;
+	margin-bottom: 15px;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+.searchBtn {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	height: 35px;
+	color: white;
+	font-weight: bold;
+	font-size: 1.2em;
+	background-color: #3da6e7;
+	border: none;
+	border-radius: 5px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.table {
+	width: auto;
+	min-width: 750px;
+	max-width: 800px;
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-bottom: 40px;
+}
+
+.EmContent {
+	margin-top: 20px;
+}
+
+th {
+	height: 30px;
+	font-size: 15px;
+}
+
+
+
+
+.vessel {
+	min-width: 190px;
+}
+
+td {
+	width: auto;
+	width: 200px;
+	text-align: center;
+	height: 30px;
+	font-size: 14px;
+	padding: 0px 10px;
+}
+
+@media only screen and (max-width: 700px) {
+	
+	.sec-title{
+		margin-left: 350px;
+	}
+}
+
+@media only screen and (max-width: 420px) {
+
+	.sec-title{
+		margin-left: 350px;
+	}
+
+	.table {
+	  max-width: 150px;
+	  margin-left: 450px;
+	  font-size: 5px;
+	}
+
+	td {
+		width: auto;
+	}
+  }

@@ -1,0 +1,100 @@
+@charset "ISO-8859-1";
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 26px;
+	letter-spacing: .02em;
+}
+
+.ecContainer {
+	padding: 10px;
+	width: 95%;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+.ecContent {
+	width: 82%;
+	padding: 20px;
+	margin-left: 165px;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.addImg img {
+	margin-top: 90px;
+	width: 500px;
+}
+
+.addTitle {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 27px;
+	font-weight: bold;
+	margin-left: 14%;
+	letter-spacing: 2px;
+}
+
+.ecfrom {
+	display: flex;
+	flex-direction: row;
+	margin-top: 40px;
+	margin-left: 4%;
+}
+
+.leftForm {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.formInput {
+	width: 280px;
+	height: 45px;
+	padding-left: 15px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+.rightForm {
+	display: flex;
+	flex-direction: column;
+	margin-left: 60px;
+}
+
+.formBtn {
+	margin-left: 6%;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+button {
+	width: 300px;
+	height: 40px;
+	font-size: 16px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+
+
+}
+
+.reBtn {
+	background-color: red;
+}
+
+.addBtn {
+	background-color: #04b4ff;
+	margin-left: 40px;
+}
